@@ -15,7 +15,7 @@ export class App {
 
     constructor(private _formBuilder: FormBuilder, private _http: Http) {
         const API_URL = 'https://www.googleapis.com/youtube/v3/search';
-        const API_KEY = 'AIzaSyCtTf6M5HXLSf3GX0I9HOBxWB7M39pvuS8';
+        const API_KEY = '';
 
         this.searchForm = this._formBuilder.group({
             'search': ['', Validators.required]
